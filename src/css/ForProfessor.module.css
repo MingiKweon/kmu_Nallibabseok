@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 15px;
+}
+
+.main_title {
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgray;
+}
+
+.three_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.three_item {
+    background: white;
+    white-space: pre;
+    height:15px;
+}
+
+header {
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    width: 50%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+}
+
+.item1 {
+    text-align: center;
+    background: rgba(211, 211, 211, 0.959);
+    height: 40px;
+    width: 40px;
+}
+
+.item2 {
+    text-align: center;
+    background: rgba(211, 211, 211, 0.753);
+    width: 30px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size:x-small;
+    padding: 7.5px 0px;
+}
+
+.banner {
+    background: rgba(211, 211, 211, 0.753);
+    height:300px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blank_nav {
+    height: 30px;
+    width: 42%;
+    margin-top: 10px;
+}
+
+.toggle {
+    width: 16%;
+    display: flex;
+    background: rgba(211, 211, 211, 0.753);
+    margin-top: 10px;
+    font-size: small;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    border-radius: 10px;
+    color:gray;
+    font-weight: 400;
+}
+
+.left {
+    width: 50px;
+    /* height: 30px; */
+    padding: 5px 0px;
+
+}
+
+.middle {
+    width: 50px;
+    /* height: 30px; */
+    padding: 5px 0px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.right {
+    width: 50px;
+    /* height: 30px; */
+    padding: 5px 0px;
+    color:deepskyblue;
+}
+
+.list {
+    display: flex;
+}
+
+.blank_list {
+    height: 80vh;
+    width: 20%
+}
+
+.mlist {
+    width: 60%;
+    background: rgba(211, 211, 211, 0.753);
+    text-align: center;
+    padding: 10px;
+}
+
+.label {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: lightgray;
+    font-size: small;
+}
+
+.link {
+    text-decoration: none;
+    color:gray;
+}
