@@ -1,0 +1,9 @@
+.MenuBox2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.Menubox2_item{
+    background-color: rgb(26, 26, 26);
+}
+  
