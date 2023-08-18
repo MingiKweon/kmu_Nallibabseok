@@ -1,14 +1,10 @@
-import React,{useState} from 'react';
-
 const Calculator = () => {
-    
     return (
-        <h2>계산기</h2>
-    
+        <div>
+            <h1>계산기</h1>
+
+        </div>
     );
 };
 
 export default Calculator;
-
-
- 

@@ -1,9 +1,52 @@
+.MenuBox2_title{
+
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.MenuBox2_title_1{
+    font-size: 29px;
+}
+.MenuBox2_title_2{
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+}
 .MenuBox2{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    justify-content: space-between;
+
+    
 }
-.Menubox2_item{
-    background-color: rgb(26, 26, 26);
+
+.Menuwhen{
+    margin-left: 40px;
+    text-align:left;
+    font-size: 20px;
 }
-  
+.MenuBox2_breakfast{
+
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.MenuBox2_lunch{
+
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.MenuBox2_dinner{
+
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}

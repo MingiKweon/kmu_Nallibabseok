@@ -4,6 +4,8 @@ import MenuBox2 from './MenuBox2';
 import Banner from './Banner';
 import Calculator from './Calculator';
 import Navigation from './Navigation';
+import Footer from "./Footer";
+import "./font/font.css";
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
           <Calculator/>
         </div>
 
+      </div>
+      <div className={styles.Fot}>
+        <Footer/>
       </div>
 
       
