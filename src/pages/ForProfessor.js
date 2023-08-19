@@ -21,7 +21,9 @@ function Header() {
 
 const Banner = () => {
     return (
-        <div className={styles.banner} />
+        <div className={styles.banner_top}>
+            <div className={styles.banner} />
+        </div>
     );
 };
 

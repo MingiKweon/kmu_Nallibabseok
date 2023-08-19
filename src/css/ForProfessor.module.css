@@ -57,9 +57,16 @@ header {
     padding: 7.5px 0px;
 }
 
+.banner_top {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .banner {
     background: rgba(211, 211, 211, 0.753);
     height:300px;
+    width: 95%;
 }
 
 .navbar {
