@@ -1,3 +1,4 @@
+import Random from '../Components/Random';
 import styles from '../css/ForProfessor.module.css';
 import { NavLink } from 'react-router-dom';
 
@@ -67,6 +68,7 @@ function ForProfessor() {
             <Header />
             <Banner />
             <Nav />
+            <Random />
             <Main />
             <Footer />
         </div>

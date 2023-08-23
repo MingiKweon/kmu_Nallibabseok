@@ -1,0 +1,22 @@
+.random_nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav {
+    margin-bottom: 5px;
+}
+
+.btn_nav {
+    margin-left: 10px;
+}
+
+.btn {
+    border-style: none;
+    cursor: pointer;
+}
+
+.state {
+    color: black;
+    font-size: larger;
+}
