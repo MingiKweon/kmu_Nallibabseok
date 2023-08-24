@@ -1,4 +1,5 @@
 import Random from '../Components/Random';
+import NowTimer from '../Components/Time';
 import styles from '../css/ForProfessor.module.css';
 import { NavLink } from 'react-router-dom';
 
@@ -11,10 +12,10 @@ function Header() {
             <div className={styles.three_container}>
                 <div className={styles.three_item} />
                 <div className={styles.main_title}>Nallibabseok</div>
-                <div className={styles.three_item} />
+                {/* <div className={styles.three_item} /> */}
             </div>
             <div className={styles.container2}>
-                <div className={styles.item2}>ID</div>
+                <div className={styles.item2} />
             </div>
         </header>
     );
@@ -35,7 +36,7 @@ function Nav() {
             <div className={styles.toggle}>
                 <div className={styles.left}><NavLink className={styles.link} to='/'>학식</NavLink></div>
                 <div className={styles.middle}><NavLink className={styles.link} to='/'>법식</NavLink></div>
-                <div className={styles.right}><NavLink className={styles.link} to='/forprofessor'>교직원</NavLink></div>
+                <div className={styles.right}><NavLink className={styles.link1} to='/forprofessor'>교직원</NavLink></div>
             </div>
             <div className={styles.blank_nav} />
         </div>
@@ -47,9 +48,15 @@ function Main() {
         <div className={styles.list}>
             <div className={styles.blank_list} />
             <div className={styles.mlist}>
-                교직원 식당
+                <div className={styles.res_title}>교직원 식당</div>
+                <div className={styles.bld}>
+                    <div className={styles.b}>아침</div>
+                    <div className={styles.b}>점심</div>
+                    <div className={styles.b}>저녁</div>
+                </div>
             </div>
-            <div className={styles.blank_list} />
+            <div className={styles.blank_list2} />
+            <div className={styles.cal_nav} />
         </div>
     );
 };
@@ -69,6 +76,7 @@ function ForProfessor() {
             <Banner />
             <Nav />
             <Random />
+            <NowTimer />
             <Main />
             <Footer />
         </div>
