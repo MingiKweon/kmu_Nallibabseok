@@ -1,14 +1,18 @@
 import styles from "./App.module.css";
 import Main from "./Main";
+import Sidebar from "./Sidebar";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <div className={styles.name}>Sidebar</div>
+      <div>
+        <Sidebar />
+      </div>
       <div className={styles.name}>
         <a>KMU</a> 난리밥석
       </div>
-      <div className={styles.name}>Login</div>
+      <button>Login</button>
     </header>
   );
 }
